@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+body {
+    background-color: rgb(187, 238, 238);
+}
+
 .container {
     height: 100vh;
     width: 100vw;
 }
 
-.container, .logo {
+.container, .logo, .content {
     display: flex;
     flex-flow: row wrap;
 }
 
-.sea {
+#sea {
     background-image: url(./img/sea.jpeg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
     width: 30%;
+    left: 5vw;
     position: relative;
 }
 
@@ -29,9 +34,9 @@
     align-items: center;
 }
 
-#logo {
+#octo {
     height: auto;
-    width: 150px;
+    width: 10vw;
     padding-top: 2vh;
 }
 
@@ -42,5 +47,7 @@ h1 {
 }
 
 .content {
-    background-color: rgb(187, 238, 238);
+    justify-content: center;
+    position: relative;
+    width: 70%;
 }
