@@ -1,0 +1,22 @@
+body {
+    background-image: url(../sign-up-form/img/sea.jpeg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 30%;
+}
+
+.logo {
+    
+}
+
+.me {
+    height: auto;
+    width: 250px;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+}
+
+.img-tag {
+
+}
