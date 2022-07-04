@@ -1,22 +1,46 @@
-body {
-    background-image: url(../sign-up-form/img/sea.jpeg);
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container, .logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sea {
+    background-image: url(./img/sea.jpeg);
+    background-position: top;
     background-repeat: no-repeat;
-    position: relative;
+    background-size: auto;
     width: 30%;
+    position: relative;
 }
 
 .logo {
-    
-}
-
-.me {
     height: auto;
-    width: 250px;
-    position: fixed;
-    top: 30%;
-    left: 10%;
+    background-color: rgba(134, 113, 8, 0.263);
+    position: relative;
+    top: 33vh;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-tag {
+#logo {
+    height: auto;
+    width: 150px;
+    padding-top: 2vh;
+}
 
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+    color: rgb(187, 238, 238);
+}
+
+.content {
+    background-color: rgb(187, 238, 238);
 }
