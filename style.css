@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
 
 body {
     background-color: rgb(187, 238, 238);
@@ -47,7 +48,40 @@ h1 {
 }
 
 .content {
+    align-items: center;
+    background-color: rgb(178, 209, 200);
+    display: grid;
     justify-content: center;
     position: relative;
-    width: 70%;
+    right: -5vw;
+    width: 60%;
+}
+
+p, h3, h4 {
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.text {
+    height: 30vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.message {
+    font-size: 2rem;
+    padding-bottom: 5vh;
+    padding-top: 10vh;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.advisory {
+    font-size: 0.5rem;
+    padding-top: 1vh;
+}
+
+.section {
+    display: flex;
 }

@@ -14,47 +14,64 @@
     <div class="container">
         <div id="sea" style="background-image: url(./img/sea.jpeg);" alt="The Adriatic Sea">
             <div class="logo">
-                <img id="octo" src="../sign-up-form/img/half-me copy.png" alt="Half a Ryan octopus">
+                <img src="../sign-up-form/img/half-me-copy.jpeg" alt="Half a Ryan octopus" id="octo" >
                 <h1>Octo-Life</h1>
             </div>
         </div>
 
         <div class="content">
             <div class="text">
-                <p>The world is a crazy place that makes no sense most of the time but still we keep on laughing and 
+                <p class="message">The world is a crazy place that makes no sense most of the time but still we keep on laughing and 
                     having good times.</p>
                 <h3>Sign up below for no reason.</h3>
-                <p>Please be aware that the information you give goes nowhere and does nothing.</p>
+                <p class="advisory">(Please be aware that the information you give goes nowhere and does nothing).</p>
             </div>
 
             <div class="info">
-                <form>
+                <form accept="" method="post">
                     <fieldset>
                         <legend>Feel free to fill in the form below.</legend>
 
-                        <div>
-                            <label for="firstName">First Name:</label>
-                            <input type="text" name="firstName" id="firstName" placeholder="UserName" required>
+                        <div class="section">
+                            <div class="userInfo">                  
+                                <label for="firstName">First Name:</label>
+                                <br>
+                                <input type="text" name="firstName" id="firstName" required>
+                            </div>
+                                <br>
+                            <div class="userInfo">
+                                <label for="lastName">Last Name:</label>
+                                <br>
+                                <input type="text" name="name" id="name" required>
+                            </div> 
                         </div>
-                        <div>
-                            <label for="lastName">Last Name:</label>
-                            <input type="text" name="name" id="name" placeholder="UserName" required>
+                        <br>
+                        <div class="section">
+                            <div class="userInfo">
+                                <label for="email">Email</label>
+                                <br>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                                <br>
+                            <div class="userInfo">
+                                <label for="phone">Phone Number</label>
+                                <br>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
                         </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" required>
-                        </div>
-                        <div>
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" name="phone" id="phone">
-                        </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password" required minlength="8" maxlength="15">
-                        </div>
-                        <div>
-                            <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" name="confirmPassword" id="confirmPassword" required minlength="8" maxlength="15">
+                        <br>
+                        <div  class="section">
+                            <div class="userInfo">
+                                <label for="password">Password</label>
+                                <br>
+                                <input type="password" name="password" id="password" required aria-errormessage="Check again!" minlength="8" maxlength="15">
+                            </div>
+                                <br>
+                            <div class="userInfo">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <br>
+                                <input type="password" name="confirmPassword" id="confirmPassword" required aria-errormessage="Well you did that wrong!" minlength="8" maxlength="15">
+                            </div>
                         </div>
                     </fieldset>
                 </form>
