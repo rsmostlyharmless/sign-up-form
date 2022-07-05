@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    background-image: url(./img/me-octo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    color: rgb(17, 93, 50);
+    font-family:  'Rock Salt', cursive;
+    font-size: 10rem;
+    text-align: center;
+    opacity: 40%;
+}
