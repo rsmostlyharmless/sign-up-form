@@ -87,13 +87,13 @@ h3 {
     align-items: center;
 }
 
-fieldset {
-    
-}
-
 form {
     height: 30vh;
     width: 35vw;
+}
+
+.formHeader {
+    font-size: 2rem;
 }
 
 .section {
