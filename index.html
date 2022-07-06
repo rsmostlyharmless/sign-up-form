@@ -28,9 +28,10 @@
             </div>
 
             <div class="info">
-                <form accept="" method="">
-                    <label for="formHeader">Feel free to fill in the form below.</label>
-
+                <form action="index.html" method="post">
+                    <div class="formHeader">
+                        <label class="formHeader" for="formHeader">Feel free to fill in the form below.</label>
+                    </div>
                     <div class="section">
                         <div class="userInfo">                  
                             <label for="firstName">First Name:</label>
@@ -63,23 +64,22 @@
                         <div class="userInfo">
                             <label for="password">Password</label>
                             <br>
-                            <input type="password" name="password" id="password" required aria-errormessage="Check again!" minlength="8" maxlength="15">
+                            <input type="password" name="password" id="password" minlength="8" maxlength="15">
                         </div>
                             <br>
                         <div class="userInfo">
                             <label for="confirmPassword">Confirm Password</label>
                             <br>
-                            <input type="password" name="confirmPassword" id="confirmPassword" required aria-errormessage="Well you did that wrong!" minlength="8" maxlength="15">
+                            <input type="password" name="confirmPassword" id="confirmPassword" minlength="8" maxlength="15">
                         </div>
                     </div>
+            </div>
 
+                    <div class="confirm">
+                            <button type="submit">Create Account</button>
+                            <h4>If you succeeded in making an account <a href="login.html">click here.</a></h4>
+                    </div>
                 </form>
-            </div>
-
-            <div class="confirm">
-                <button type="submit">Submit</button>
-                <h4 class="already">If you succeeded in making an account <a href="login.html">click here.</a></h4>
-            </div>
         </div>
     </div>
     

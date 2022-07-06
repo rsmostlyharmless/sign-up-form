@@ -49,7 +49,6 @@ h1 {
 
 .content {
     align-items: center;
-    background-color: rgb(178, 209, 200);
     display: grid;
     justify-content: center;
     position: relative;
@@ -62,9 +61,13 @@ p, h3, h4, label, button {
 }
 
 .text, .info, .confirm {
-    height: 30vh;
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+.text, .confirm {
+    background-color: rgb(201, 236, 226);
+    height: 35vh;
 }
 
 .message {
@@ -83,8 +86,8 @@ h3 {
 }
 
 .info {
-    display: flex;
-    align-items: center;
+    background-color: rgb(214, 235, 229);
+    height: 30vh;
 }
 
 form {
@@ -94,9 +97,34 @@ form {
 
 .formHeader {
     font-size: 2rem;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
 }
 
 .section {
     display: flex;
     justify-content: space-around;
+}
+
+input {
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.confirm {
+    padding-top: 3vh;
+}
+
+button {
+    border-radius: 10px;
+    height: 5vh;
+    width: 13vw;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin: 0;
+    padding-top: 2vh;
 }
