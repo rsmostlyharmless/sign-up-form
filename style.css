@@ -118,6 +118,11 @@ input:hover {
     border-color: rgb(187, 238, 238);
 }
 
+input:focus {
+    outline: none;
+    border-color: brown;
+}
+
 .confirm {
     padding-top: 20px;
 }
