@@ -50,6 +50,7 @@ h1 {
 
 .content {
     align-items: center;
+    box-shadow: 40px 0px 30px 5px rgba(165, 42, 42, 0.251);
     display: grid;
     justify-content: center;
     position: relative;
@@ -159,4 +160,8 @@ a:hover {
 
 a:active {
     color: brown;
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
