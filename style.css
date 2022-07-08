@@ -162,6 +162,28 @@ a:active {
     color: brown;
 }
 
-/* @media only screen and (max-width: 600px) and (min-width: 400px) {
-    
+
+/* going to have a play with @media */
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        background-color: transparent;
+        background-image: url(../sign-up-form/img/sea.jpeg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 200px;
+    }
+
+    .container {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .text, .info, .confirm {
+        background-color: transparent;
+        text-align: center;
+    }
 } */
